@@ -1,0 +1,18 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+.gallery {
+  background-color: #e5e8e8;
+}
+@media (max-width: 800px) {
+  .gallery img {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+@media (max-width: 50px) {
+  .gallery img {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
